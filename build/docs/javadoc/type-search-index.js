@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.netease.mc.authlib","l":"Profile"},{"p":"com.netease.mc.authlib","l":"TokenChain"},{"p":"com.netease.mc.authlib","l":"TokenChainEC"},{"l":"所有类和接口","u":"allclasses-index.html"}];updateSearchResults();
