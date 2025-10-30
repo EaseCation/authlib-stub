@@ -28,7 +28,11 @@ repositories {
 }
 
 dependencies {
+    // 推荐：使用固定版本
     compileOnly("com.github.EaseCation:authlib-stub:1.0.0-stub")
+
+    // 或使用最新提交
+    compileOnly("com.github.EaseCation:authlib-stub:master-SNAPSHOT")
 }
 ```
 
@@ -63,6 +67,8 @@ dependencies {
     </dependency>
 </dependencies>
 ```
+
+**注意**：JitPack 坐标格式为 `com.github.{用户名}:{仓库名}:{版本}`，而非 Maven Central 的 `com.netease.mc:authlib-stub:{版本}`
 
 ## 运行时要求
 
