@@ -7,10 +7,9 @@ group = "com.netease.mc"
 version = "1.0.0-stub"
 description = "NetEase AuthLib Stub - Compile-time only"
 
-// Java 21 工具链配置
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(21)
+        languageVersion = JavaLanguageVersion.of(25)
     }
 }
 
@@ -20,7 +19,7 @@ repositories {
 
 dependencies {
     // 仅需要 Gson（用于 TokenChainEC 的返回类型）
-    compileOnly("com.google.code.gson:gson:2.10.1")
+    compileOnly(libs.gson)
 }
 
 // 配置编译选项
